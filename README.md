@@ -12,7 +12,8 @@ php 支持中文汉字转拼音单元。
 
 ## 方法： ##
 
-`class pinyin{
+`
+class pinyin{
 
 	// $str : 需要转换的汉字（只支持utf-8）
 	// $first_char : 是否只取首字母
@@ -20,6 +21,7 @@ php 支持中文汉字转拼音单元。
 	static function get($str, $first_char = 0, $split_char = '')
 
 }
+
 `
 
 
