@@ -46,6 +46,4 @@ class pinyin{
 
 ## 已知问题 ##
 
-`多音字未处理
-
-重庆 会被转成 zhongqing`
+1. 多音字未处理, 重庆 会被转成 zhongqing 
