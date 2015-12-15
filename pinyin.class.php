@@ -34,7 +34,7 @@ class pinyin {
                 }
                 $is_ch = 0;
             }
-            if ($res) {
+            if ($res || $res === '0') {
                 if ($i > 0 && $split_char && $add_split) {
                     $result .= $split_char;
                 }
