@@ -45,7 +45,7 @@ class pinyin
         }
         $preg_char = preg_quote($split_char);
         $except_char = preg_quote($except_char);
-        $result = preg_replace("/([^\w{$exceptChar}" . $preg_char . "]" . ($preg_char ? $preg_char . '?' : '') . ")*/i", '', $result);
+        $result = preg_replace("/([^\w{$except_char}" . $preg_char . "]" . ($preg_char ? $preg_char . '?' : '') . ")*/i", '', $result);
         return $result;
     }
 
