@@ -18,7 +18,8 @@ class pinyin{
         // $str : 需要转换的汉字（只支持utf-8）
         // $first_char : 是否只取首字母
         // $split_char : 生成每个字间的分隔符
-	static function get($str, $first_char = 0, $split_char = '');
+        // $except_char : 排除字符，防止被过滤掉
+	static function get($str, $first_char = 0, $split_char = '', $except_char = '');
 }
 
 
@@ -40,7 +41,6 @@ class pinyin{
 // 拼音字母+带分隔线
 
 `pinyin::get($str, 1, '-');`
-
 
 
 ## 已知问题 ##
